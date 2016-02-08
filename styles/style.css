@@ -1,0 +1,107 @@
+nav {
+	position: fixed;
+    height: 100vh;
+    background: #bdc3c7;
+    padding: 1.6rem;
+    text-align: center;
+    float: left;
+}
+
+#logo {
+	color: #2c3e50;
+	font-weight: 700;
+	cursor: pointer;
+	display: block;
+	font-size: 4.5rem;
+	text-transform: uppercase;
+}
+
+nav ul {
+	position: relative;
+	top: 41.5%;
+	transform: translateY(-50%); 
+	-ms-transform: translateY(-50%); 
+	-webkit-transform: translateY(-50%); 
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	text-align: right;
+}
+
+nav ul li {
+	width: 100%;
+	display: block;
+}
+
+
+nav ul li a.active {
+	font-weight: 700;
+	width: 6rem;
+}
+
+nav ul li a {
+	color: #2c3e50;
+	text-transform: uppercase;
+	position: relative;
+}
+
+nav ul li a span.caret {
+	width: 16px;
+	height: 16px;
+	background: url('../img/caret.svg') no-repeat;
+	background-size: 80%;
+	background-position: 100% 100%;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	margin-left: 10px;
+}
+
+nav ul li a span.active {
+	display: inline-block;
+	opacity: 1;
+	visibility: visible;
+	margin-left: 0px;
+	transition: visibility 0s, opacity 0s, margin 0.15s ease-out;
+	-webkit-transition: visibility 0s, opacity 0s, margin 0.15s ease-out;
+	-moz-transition: visibility 0s, opacity 0s, margin 0.15s ease-out;
+	-o-transition: visibility 0s, opacity 0s, margin 0.15s ease-out;
+	-ms-transition: visibility 0s, opacity 0s, margin 0.15s ease-out;
+}
+
+nav #copy {
+	position: relative;
+	top: 75%;
+	text-align: right;
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-style: italic;
+	font-weight: 300;
+}
+
+body {
+	height: 2000px;
+	background: #ecf0f1;
+}
+
+#wrapper {
+	width: calc(100% - 9.3rem);
+	width: -webkit-calc(100% - 9.3rem);
+	width: -moz-calc(100% - 9.3rem);
+	width: -o-calc(100% - 9.3rem);
+	width: -ms-calc(100% - 9.3rem);
+}
+
+.main-banner {
+	background: url('../img/main.jpg') no-repeat;
+	background-size: cover;
+	height: 50vh;
+	text-align: right;
+}
+
+h1 {
+	padding: 40vh 5vh 0vh 0vh;
+	color: #fff;
+	font-size: 4rem;
+	height: 50vh;
+}
