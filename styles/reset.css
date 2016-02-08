@@ -20,10 +20,6 @@ ul {
 	list-style-type: none;
 }
 
-#wrapper {
-	width: 90%;
-	float: right;
-}
 
 #container {
 	width: 960px;
@@ -32,4 +28,11 @@ ul {
 
 h1, h2, h3, h4, h5 {
 	font-weight: 700;
+}
+
+h1 {
+	color: #fff;
+	font-size: 4rem;
+	display: inline-block;
+	line-height: 0.8;
 }
